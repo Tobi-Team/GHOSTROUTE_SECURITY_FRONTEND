@@ -8,12 +8,12 @@ interface AuthLayoutProps {
 
 export default function AuthLayout({ children }: AuthLayoutProps) {
   return (
-    <div className="flex min-h-screen">
+    <div className="flex min-h-screen ">
       {/* Left side - Auth form */}
       <div className="flex-1 flex flex-col p-8">
         <div className="max-w-md mx-auto w-full">
           {/* Logo */}
-          <div className="mb-2">
+          <div className="mb-4">
             <h1 className="logo uppercase text-green-900 font-semibold text-2xl">
               GHOSTROUTE_SECURITY
             </h1>
